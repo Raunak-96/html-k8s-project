@@ -28,5 +28,5 @@ jobs:
     - name: Setup Helm
       uses: azure/setup-helm@v3
 
-    - name: Deploy using Helm
-      run: helm upgrade --install html-app ./my-chart
+#    - name: Deploy using Helm
+#      run: helm upgrade --install html-app ./my-chart
